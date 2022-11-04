@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic input types</title>
+        <link rel="sytlesheet" href="InputForms.css">
+
+    </head>
+    <body>
+        <form>
+            <header class="headerContainer">
+                <h1>HTML 5 Form Input Fields</h1>
+            </header>
+
+            <div>
+                <label for="text">text input type for name: </label>
+                <input type="text" id="text" name="text">
+            </div>
+
+            <div>
+                <label for="pwd">password input type : </label>
+                <input type="password" id="pwd" name="pwd">
+            </div>
+
+            <div>
+                <label for="email">password input type : </label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="url">password input type : </label>
+                <input type="url" id="url" name="url">
+            </div>
+
+            <div>
+                <label for="number">password input type : </label>
+                <input type="number" id="number" name="number">
+            </div>
+
+            <div>
+                <label for="tel">password input type : </label>
+                <input type="tel" id="tel" name="tel">
+            </div>
+
+            <div>
+                <label for="search">password input type : </label>
+                <input type="search" id="pwd" name="search">
+            </div>
+
+            <div class="nativeDateTimepicker">
+                <label for="party">Choose date time: </label>
+                <input type="dateTime-local" id="party" name="bday">
+            </div>
+
+            <div>
+                <label for="salary">Choose your salary: </label>
+                <input type="range" id="salary" name="salary" min="300000"
+                max="500000" step="100" value="400000">
+                <output class="salary-output" for="salary">400000</output>
+            </div>
+
+            <div>
+                <button>Submit</button>
+            </div>
+            
+        </form>
+    </body>
+</html>
